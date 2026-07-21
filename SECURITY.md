@@ -2,13 +2,13 @@
 
 ## Supported Versions
 
-This repository contains FortiGate configuration examples rather than
-versioned software releases.
+This repository contains FortiGate configuration examples targeting FortiOS
+8.0.0 rather than versioned software releases.
 
 | Content | Supported |
 | --- | --- |
-| Current `main` branch | ✅ |
-| Earlier commit snapshots or modified copies | ❌ |
+| Current `main` branch for FortiOS 8.0.0 | ✅ |
+| Older FortiOS releases, earlier snapshots, or modified copies | ❌ |
 
 Security-related corrections are made only to the current `main` branch.
 
@@ -25,7 +25,7 @@ https://github.com/ryroeu/fortinet/security/advisories
 A useful report should include:
 
 - The affected file and command or configuration block
-- The relevant FortiGate model and FortiOS version, if known
+- The relevant FortiGate model and confirmation that it runs FortiOS 8.0.0
 - The potential security impact
 - Steps to reproduce or demonstrate the issue
 - A suggested correction or safer configuration, if available
@@ -62,7 +62,8 @@ directly to the [Fortinet Product Security Incident Response Team
 
 The files in this repository are reference examples. Before applying them:
 
-- Verify every command against the documentation for your FortiOS version
+- Confirm the device runs FortiOS 8.0.0 and verify every command against the
+  FortiOS 8.0.0 documentation
 - Replace placeholders and example addresses with environment-specific values
 - Remove or restrict unnecessary administrative access
 - Use least-privilege accounts and trusted management networks
